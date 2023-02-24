@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>India Government Detail Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>India Government Detail Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="aadhar">Aadhar Number:</label>
+            <input type="text" id="aadhar" name="aadhar" placeholder="Enter your Aadhar number" required>
+
+            <label for="pan">PAN Number:</label>
+            <input type="text" id="pan" name="pan" placeholder="Enter your PAN number" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" placeholder="Enter your education level" required>
+
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
